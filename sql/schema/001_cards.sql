@@ -2,7 +2,7 @@
 CREATE TABLE cards (
     id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     lesson INT,
-    romaji TEXT NOT NULL UNIQUE,
+    dutch TEXT NOT NULL,
     hiragana TEXT,
     katakana TEXT,
     kanji TEXT,
